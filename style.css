@@ -1,0 +1,242 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* banner section css */
+.banner{
+    background: url(img/donation5.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+
+    position: relative;
+    z-index: 1;
+}
+.banner-text{
+    padding: 0 350px;
+}
+
+.banner-text-1{
+    padding: 0 400px;
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1{
+    color: white;
+    font-size: 50px;
+}
+
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    z-index: -1;
+}
+
+.banner-text p{
+    color: white;
+}
+
+.banner-text-1 p{
+    margin-bottom: 35px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background: #ff5959;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+/* Donate section */
+
+.donate-text{
+    width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.donate-text h1{
+    font-weight: 900;
+    font-size: 35px;
+}
+.donateAmmount{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donateAmmount1{
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 5px;
+}
+.donateForm{
+    padding: 30px 0;
+}
+.donationForm form input{
+    width: 1000px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+.border{
+    padding: .5px 0;
+    background: black;
+    width: 1000px;
+    margin: auto;
+}
+.donateBtn{
+    margin-top: 40px;
+}
+
+/* .donateNow{
+    width: 600px;
+    margin: auto;
+}
+
+
+.donateNow form input{
+    padding: 10px 60px;
+    width: 600px;
+} */
+
+
+/* donate plan */
+.donatePlan{
+    margin-top: 80px;
+    
+}
+
+.donatePlandetail{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.donatePlandetail p{
+    font-size: 13px;
+}
+
+.donatePlandetail1{
+    background: #edf5f6;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.donatePlandetail1 span{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+.donatePlandetail2{
+    background: #ffeeee;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.donatePlandetail2 span{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.donatePlandetail3 span{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.donatePlandetail3{
+    background: #fff4d6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+footer{
+    background: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+.GetUpdates{
+    width: 700px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.updateForm{
+    padding: 70px;
+    background: #fff4d6;
+    border-radius: 5px;
+}
+.updateForm form{
+    display: inline-block;
+    margin-right: 0;
+}
+
+.updateForm form input{
+    padding: 14px;
+    border-radius: 5px;
+    background: #d9d9d9;
+    border: none;
+}
+
+.Howtocontribute{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contributeText{
+    padding: 50px;
+    width: 45%;
+    align-items: center;
+}
+
+.contributeImage{
+    width: 55%;
+}
+
+.contributeImage img{
+    font-size: 500px;
+}
+
+
+
+
+
